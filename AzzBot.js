@@ -652,20 +652,15 @@ delete this.suit[id]
 }
 break
 	case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/62821220876725 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/𝕭𝖔𝖙 • Andii ༢࿔ྀ\n⌕ Saweria : https://saweria.co/𝕭𝖔𝖙 • Andii ༢࿔ྀ` }, { quoted: m })
+zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/62821220876725 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/𝕭𝖔𝖙 • Andii ♨️༢࿔\n⌕ Saweria : https://saweria.co/𝕭𝖔𝖙 • Andii ♨️༢࿔` }, { quoted: m })
 }
 break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
-⌕ Script : https://github.com/AzzBott679
-
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
-⌕ Saweria : Kaga ada
-⌕ Paypal : kaga ada
-
-Dont Forget Donate
+⌕ Script : Kenapa Bebek Kaki Nya Dua? 
+Karna Lu Wibu :v 
+By : 𝕭𝖔𝖙 • Andii ♨️༢࿔
 `
 	let btn = [{
 urlButton: {
@@ -680,9 +675,7 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+𝕭𝖔𝖙 • Andii ♨️༢࿔
 
 `
 	let btn = [{
@@ -1587,7 +1580,7 @@ var total = 0
 for (let o of _cmd) {
   total = total + o.count
 }
-var teks = `*𝕭𝖔𝖙 • Andii ༢࿔ྀ*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
+var teks = `*𝕭𝖔𝖙 • Andii ♨️༢࿔*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
 teks += `*Most Command Global*\n`
 for (let u = 0; u < jumlahCmd; u ++) {
   teks += `• ${_cmd[u].nama} : ${_cmd[u].count}\n`
@@ -2670,236 +2663,236 @@ break
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg`
-anu = `⚜️⚜️⚜️⚜️⚜️ ⚜️⚜️⚜️⚜️ ⚜️
-⚜️⛶══════════⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▒███▒▒⛶⚜️
-⚜️⛶▒██████▒▒▒⛶⚜️
-⚜️⛶▒█████▒▒▒▒⛶⚜️
-⚜️⛶▒██████▒▒▒⛶⚜️
-⚜️⛶▒███▒███▒▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▄████▄▒▒⛶⚜️
-⚜️⛶▒███▀▀███▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▄▄███▒⛶⚜️
-⚜️⛶▒▒▀████▀▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒██▄▒▒███▒⛶⚜️
-⚜️⛶▒███▄▒███▒⛶⚜️
-⚜️⛶▒████▄███▒⛶⚜️
-⚜️⛶▒████████▒⛶⚜️
-⚜️⛶▒███▀████▒⛶⚜️
-⚜️⛶▒███▒▀███▒⛶⚜️
-⚜️⛶▒███▒▒▀██▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▄██████▄▒⛶⚜️
-⚜️⛶▒████████▒⛶⚜️
-⚜️⛶▒▒▒████▒▒▒⛶⚜️
-⚜️⛶▒▒▒████▒▒▒⛶⚜️
-⚜️⛶▒▒▒████▒▒▒⛶⚜️
-⚜️⛶▒▒▒████▒▒▒⛶⚜️
-⚜️⛶▒▒▒████▒▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▄████▄▒▒⛶⚜️
-⚜️⛶▒███▀▀███▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▒▒███▒⛶⚜️
-⚜️⛶▒███▄▄███▒⛶⚜️
-⚜️⛶▒▒▀████▀▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
-⚜️⛶▒███▒▒▄██▒⛶⚜️
-⚜️⛶▒███▄▄███▒⛶⚜️
-⚜️⛶▒▀█████▀▒▒⛶⚜️
-⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
-⚜️⛶══════════⛶⚜️
-⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️ ${pushname}, By : 𝕭𝖔𝖙 • Andii ༢࿔ྀ
+anu = `‼️‼️‼️‼️‼️ ‼️‼️‼️‼️ ‼️
+‼️⛶══════════⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▒███▒▒⛶‼️
+‼️⛶▒██████▒▒▒⛶‼️
+‼️⛶▒█████▒▒▒▒⛶‼️
+‼️⛶▒██████▒▒▒⛶‼️
+‼️⛶▒███▒███▒▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▄████▄▒▒⛶‼️
+‼️⛶▒███▀▀███▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▄▄███▒⛶‼️
+‼️⛶▒▒▀████▀▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒██▄▒▒███▒⛶‼️
+‼️⛶▒███▄▒███▒⛶‼️
+‼️⛶▒████▄███▒⛶‼️
+‼️⛶▒████████▒⛶‼️
+‼️⛶▒███▀████▒⛶‼️
+‼️⛶▒███▒▀███▒⛶‼️
+‼️⛶▒███▒▒▀██▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▄██████▄▒⛶‼️
+‼️⛶▒████████▒⛶‼️
+‼️⛶▒▒▒████▒▒▒⛶‼️
+‼️⛶▒▒▒████▒▒▒⛶‼️
+‼️⛶▒▒▒████▒▒▒⛶‼️
+‼️⛶▒▒▒████▒▒▒⛶‼️
+‼️⛶▒▒▒████▒▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▄████▄▒▒⛶‼️
+‼️⛶▒███▀▀███▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▒▒███▒⛶‼️
+‼️⛶▒███▄▄███▒⛶‼️
+‼️⛶▒▒▀████▀▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒▒▒▒▒⛶‼️
+‼️⛶▒███▒▒▄██▒⛶‼️
+‼️⛶▒███▄▄███▒⛶‼️
+‼️⛶▒▀█████▀▒▒⛶‼️
+‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
+‼️⛶══════════⛶‼️
+‼️‼️‼️‼️‼️‼️‼️‼️‼️ By : ${pushname}
    
    
 
 ♕︎ *Group*
-   ༢࿔ྀ ${prefix}linkgroup
-   ༢࿔ྀ ${prefix}ephemeral [option]
-   ༢࿔ྀ ${prefix}setppgc [image]
-   ༢࿔ྀ ${prefix}setname [text]
-   ༢࿔ྀ ${prefix}setdesc [text]
-   ༢࿔ྀ ${prefix}group [option]
-   ༢࿔ྀ ${prefix}editinfo [option]
-   ༢࿔ྀ ${prefix}add @user
-   ༢࿔ྀ ${prefix}kick @user
-   ༢࿔ྀ ${prefix}hidetag [text]
-   ༢࿔ྀ ${prefix}tagall [text]
-   ༢࿔ྀ ${prefix}antilink [on/off]
-   ༢࿔ྀ ${prefix}mute [on/off]
-   ༢࿔ྀ ${prefix}promote @user
-   ༢࿔ྀ ${prefix}demote @user
-   ༢࿔ྀ ${prefix}vote [text]
-   ༢࿔ྀ ${prefix}devote
-   ༢࿔ྀ ${prefix}upvote
-   ༢࿔ྀ ${prefix}cekvote
-   ༢࿔ྀ ${prefix}hapusvote
+   ♨️༢࿔ ${prefix}linkgroup
+   ♨️༢࿔ ${prefix}ephemeral [option]
+   ♨️༢࿔ ${prefix}setppgc [image]
+   ♨️༢࿔ ${prefix}setname [text]
+   ♨️༢࿔ ${prefix}setdesc [text]
+   ♨️༢࿔ ${prefix}group [option]
+   ♨️༢࿔ ${prefix}editinfo [option]
+   ♨️༢࿔ ${prefix}add @user
+   ♨️༢࿔ ${prefix}kick @user
+   ♨️༢࿔ ${prefix}hidetag [text]
+   ♨️༢࿔ ${prefix}tagall [text]
+   ♨️༢࿔ ${prefix}antilink [on/off]
+   ♨️༢࿔ ${prefix}mute [on/off]
+   ♨️༢࿔ ${prefix}promote @user
+   ♨️༢࿔ ${prefix}demote @user
+   ♨️༢࿔ ${prefix}vote [text]
+   ♨️༢࿔ ${prefix}devote
+   ♨️༢࿔ ${prefix}upvote
+   ♨️༢࿔ ${prefix}cekvote
+   ♨️༢࿔ ${prefix}hapusvote
 
 ♕︎ *Downloader*
-   ༢࿔ྀ ${prefix}tiktoknowm [url]
-   ༢࿔ྀ ${prefix}tiktokwm [url]
-   ༢࿔ྀ ${prefix}tiktokmp3 [url]
-   ༢࿔ྀ ${prefix}instagram [url]
-   ༢࿔ྀ ${prefix}twitter [url]
-   ༢࿔ྀ ${prefix}twittermp3 [url]
-   ༢࿔ྀ ${prefix}facebook [url]
-   ༢࿔ྀ ${prefix}pinterestdl [url]
-   ༢࿔ྀ ${prefix}ytmp3 [url]
-   ༢࿔ྀ ${prefix}ytmp4 [url]
-   ༢࿔ྀ ${prefix}getmusic [query]
-   ༢࿔ྀ ${prefix}getvideo [query]
-   ༢࿔ྀ ${prefix}umma [url]
-   ༢࿔ྀ ${prefix}joox [query]
-   ༢࿔ྀ ${prefix}soundcloud [url]
+   ♨️༢࿔ ${prefix}tiktoknowm [url]
+   ♨️༢࿔ ${prefix}tiktokwm [url]
+   ♨️༢࿔ ${prefix}tiktokmp3 [url]
+   ♨️༢࿔ ${prefix}instagram [url]
+   ♨️༢࿔ ${prefix}twitter [url]
+   ♨️༢࿔ ${prefix}twittermp3 [url]
+   ♨️༢࿔ ${prefix}facebook [url]
+   ♨️༢࿔ ${prefix}pinterestdl [url]
+   ♨️༢࿔ ${prefix}ytmp3 [url]
+   ♨️༢࿔ ${prefix}ytmp4 [url]
+   ♨️༢࿔ ${prefix}getmusic [query]
+   ♨️༢࿔ ${prefix}getvideo [query]
+   ♨️༢࿔ ${prefix}umma [url]
+   ♨️༢࿔ ${prefix}joox [query]
+   ♨️༢࿔ ${prefix}soundcloud [url]
 
 ♕︎ *Searching*
-   ༢࿔ྀ ${prefix}play [query]
-   ༢࿔ྀ ${prefix}yts [query]
-   ༢࿔ྀ ${prefix}google [query]
-   ༢࿔ྀ ${prefix}gimage [query]
-   ༢࿔ྀ ${prefix}pinterest [query]
-   ༢࿔ྀ ${prefix}wallpaper [query]
-   ༢࿔ྀ ${prefix}wikimedia [query]
-   ༢࿔ྀ ${prefix}ytsearch [query]
-   ༢࿔ྀ ${prefix}ringtone [query]
-   ༢࿔ྀ ${prefix}stalk [option] [query]
+   ♨️༢࿔ ${prefix}play [query]
+   ♨️༢࿔ ${prefix}yts [query]
+   ♨️༢࿔ ${prefix}google [query]
+   ♨️༢࿔ ${prefix}gimage [query]
+   ♨️༢࿔ ${prefix}pinterest [query]
+   ♨️༢࿔ ${prefix}wallpaper [query]
+   ♨️༢࿔ ${prefix}wikimedia [query]
+   ♨️༢࿔ ${prefix}ytsearch [query]
+   ♨️༢࿔ ${prefix}ringtone [query]
+   ♨️༢࿔ ${prefix}stalk [option] [query]
 
 ♕︎ *Fun*
-   ༢࿔ྀ ${prefix}halah
-   ༢࿔ྀ ${prefix}hilih
-   ༢࿔ྀ ${prefix}huluh
-   ༢࿔ྀ ${prefix}heleh
-   ༢࿔ྀ ${prefix}holoh
-   ༢࿔ྀ ${prefix}jadian
-   ༢࿔ྀ ${prefix}jodohku
-   ༢࿔ྀ ${prefix}delttt
-   ༢࿔ྀ ${prefix}tictactoe
-   ༢࿔ྀ ${prefix}family100
-   ༢࿔ྀ ${prefix}tebak [option]
-   ༢࿔ྀ ${prefix}math [mode]
-   ༢࿔ྀ ${prefix}suitpvp [@tag]
+   ♨️༢࿔ ${prefix}halah
+   ♨️༢࿔ ${prefix}hilih
+   ♨️༢࿔ ${prefix}huluh
+   ♨️༢࿔ ${prefix}heleh
+   ♨️༢࿔ ${prefix}holoh
+   ♨️༢࿔ ${prefix}jadian
+   ♨️༢࿔ ${prefix}jodohku
+   ♨️༢࿔ ${prefix}delttt
+   ♨️༢࿔ ${prefix}tictactoe
+   ♨️༢࿔ ${prefix}family100
+   ♨️༢࿔ ${prefix}tebak [option]
+   ♨️༢࿔ ${prefix}math [mode]
+   ♨️༢࿔ ${prefix}suitpvp [@tag]
 
 ♕︎ *Primbon*
-   ༢࿔ྀ ${prefix}nomorhoki
-   ༢࿔ྀ ${prefix}artimimpi
-   ༢࿔ྀ ${prefix}artinama
-   ༢࿔ྀ ${prefix}ramaljodoh
-   ༢࿔ྀ ${prefix}ramaljodohbali
-   ༢࿔ྀ ${prefix}suamiistri
-   ༢࿔ྀ ${prefix}ramalcinta
-   ༢࿔ྀ ${prefix}cocoknama
-   ༢࿔ྀ ${prefix}pasangan
-   ༢࿔ྀ ${prefix}jadiannikah
-   ༢࿔ྀ ${prefix}sifatusaha
-   ༢࿔ྀ ${prefix}rezeki
-   ༢࿔ྀ ${prefix}pekerjaan
-   ༢࿔ྀ ${prefix}nasib
-   ༢࿔ྀ ${prefix}penyakit
-   ༢࿔ྀ ${prefix}tarot
-   ༢࿔ྀ ${prefix}fengshui
-   ༢࿔ྀ ${prefix}haribaik
-   ༢࿔ྀ ${prefix}harisangar
-   ༢࿔ྀ ${prefix}harisial
-   ༢࿔ྀ ${prefix}nagahari
-   ༢࿔ྀ ${prefix}arahrezeki
-   ༢࿔ྀ ${prefix}peruntungan
-   ༢࿔ྀ ${prefix}weton
-   ༢࿔ྀ ${prefix}karakter
-   ༢࿔ྀ ${prefix}keberuntungan
-   ༢࿔ྀ ${prefix}memancing
-   ༢࿔ྀ ${prefix}masasubur
-   ༢࿔ྀ ${prefix}zodiak
-   ༢࿔ྀ ${prefix}shio
+   ♨️༢࿔ ${prefix}nomorhoki
+   ♨️༢࿔ ${prefix}artimimpi
+   ♨️༢࿔ ${prefix}artinama
+   ♨️༢࿔ ${prefix}ramaljodoh
+   ♨️༢࿔ ${prefix}ramaljodohbali
+   ♨️༢࿔ ${prefix}suamiistri
+   ♨️༢࿔ ${prefix}ramalcinta
+   ♨️༢࿔ ${prefix}cocoknama
+   ♨️༢࿔ ${prefix}pasangan
+   ♨️༢࿔ ${prefix}jadiannikah
+   ♨️༢࿔ ${prefix}sifatusaha
+   ♨️༢࿔ ${prefix}rezeki
+   ♨️༢࿔ ${prefix}pekerjaan
+   ♨️༢࿔ ${prefix}nasib
+   ♨️༢࿔ ${prefix}penyakit
+   ♨️༢࿔ ${prefix}tarot
+   ♨️༢࿔ ${prefix}fengshui
+   ♨️༢࿔ ${prefix}haribaik
+   ♨️༢࿔ ${prefix}harisangar
+   ♨️༢࿔ ${prefix}harisial
+   ♨️༢࿔ ${prefix}nagahari
+   ♨️༢࿔ ${prefix}arahrezeki
+   ♨️༢࿔ ${prefix}peruntungan
+   ♨️༢࿔ ${prefix}weton
+   ♨️༢࿔ ${prefix}karakter
+   ♨️༢࿔ ${prefix}keberuntungan
+   ♨️༢࿔ ${prefix}memancing
+   ♨️༢࿔ ${prefix}masasubur
+   ♨️༢࿔ ${prefix}zodiak
+   ♨️༢࿔ ${prefix}shio
 
 ♕︎ *Convert*
-   ༢࿔ྀ ${prefix}toimage
-   ༢࿔ྀ ${prefix}removebg
-   ༢࿔ྀ ${prefix}sticker
-   ༢࿔ྀ ${prefix}emojimix
-   ༢࿔ྀ ${prefix}tovideo
-   ༢࿔ྀ ${prefix}togif
-   ༢࿔ྀ ${prefix}tourl
-   ༢࿔ྀ ${prefix}tovn
-   ༢࿔ྀ ${prefix}tomp3
-   ༢࿔ྀ ${prefix}toaudio
-   ༢࿔ྀ ${prefix}ebinary
-   ༢࿔ྀ ${prefix}dbinary
-   ༢࿔ྀ ${prefix}styletext
+   ♨️༢࿔ ${prefix}toimage
+   ♨️༢࿔ ${prefix}removebg
+   ♨️༢࿔ ${prefix}sticker
+   ♨️༢࿔ ${prefix}emojimix
+   ♨️༢࿔ ${prefix}tovideo
+   ♨️༢࿔ ${prefix}togif
+   ♨️༢࿔ ${prefix}tourl
+   ♨️༢࿔ ${prefix}tovn
+   ♨️༢࿔ ${prefix}tomp3
+   ♨️༢࿔ ${prefix}toaudio
+   ♨️༢࿔ ${prefix}ebinary
+   ♨️༢࿔ ${prefix}dbinary
+   ♨️༢࿔ ${prefix}styletext
 
 ♕︎ *Main*
-   ༢࿔ྀ ${prefix}ping
-   ༢࿔ྀ ${prefix}owner
-   ༢࿔ྀ ${prefix}menu / ${prefix}help / ${prefix}?
-   ༢࿔ྀ ${prefix}delete
-   ༢࿔ྀ ${prefix}infochat
-   ༢࿔ྀ ${prefix}quoted
-   ༢࿔ྀ ${prefix}listpc
-   ༢࿔ྀ ${prefix}listgc
-   ༢࿔ྀ ${prefix}listonline
-   ༢࿔ྀ ${prefix}speedtest
+   ♨️༢࿔ ${prefix}ping
+   ♨️༢࿔ ${prefix}owner
+   ♨️༢࿔ ${prefix}menu / ${prefix}help / ${prefix}?
+   ♨️༢࿔ ${prefix}delete
+   ♨️༢࿔ ${prefix}infochat
+   ♨️༢࿔ ${prefix}quoted
+   ♨️༢࿔ ${prefix}listpc
+   ♨️༢࿔ ${prefix}listgc
+   ♨️༢࿔ ${prefix}listonline
+   ♨️༢࿔ ${prefix}speedtest
 
 ♕︎ *Database*
-   ༢࿔ྀ ${prefix}setcmd
-   ༢࿔ྀ ${prefix}listcmd
-   ༢࿔ྀ ${prefix}delcmd
-   ༢࿔ྀ ${prefix}lockcmd
-   ༢࿔ྀ ${prefix}addmsg
-   ༢࿔ྀ ${prefix}listmsg
-   ༢࿔ྀ ${prefix}getmsg
-   ༢࿔ྀ ${prefix}delmsg
+   ♨️༢࿔ ${prefix}setcmd
+   ♨️༢࿔ ${prefix}listcmd
+   ♨️༢࿔ ${prefix}delcmd
+   ♨️༢࿔ ${prefix}lockcmd
+   ♨️༢࿔ ${prefix}addmsg
+   ♨️༢࿔ ${prefix}listmsg
+   ♨️༢࿔ ${prefix}getmsg
+   ♨️༢࿔ ${prefix}delmsg
 
 ♕︎ *Anonymous Chat*
-   ༢࿔ྀ ${prefix}anonymous
-   ༢࿔ྀ ${prefix}start
-   ༢࿔ྀ ${prefix}next
-   ༢࿔ྀ ${prefix}keluar
-   ༢࿔ྀ ${prefix}sendkontak
+   ♨️༢࿔ ${prefix}anonymous
+   ♨️༢࿔ ${prefix}start
+   ♨️༢࿔ ${prefix}next
+   ♨️༢࿔ ${prefix}keluar
+   ♨️༢࿔ ${prefix}sendkontak
 
 ♕︎ *Voice Changer*
-   ༢࿔ྀ ${prefix}bass
-   ༢࿔ྀ ${prefix}blown
-   ༢࿔ྀ ${prefix}deep
-   ༢࿔ྀ ${prefix}earrape
-   ༢࿔ྀ ${prefix}fast
-   ༢࿔ྀ ${prefix}fat
-   ༢࿔ྀ ${prefix}nightcore
-   ༢࿔ྀ ${prefix}reverse
-   ༢࿔ྀ ${prefix}robot
-   ༢࿔ྀ ${prefix}slow
-   ༢࿔ྀ ${prefix}tupai
+   ♨️༢࿔ ${prefix}bass
+   ♨️༢࿔ ${prefix}blown
+   ♨️༢࿔ ${prefix}deep
+   ♨️༢࿔ ${prefix}earrape
+   ♨️༢࿔ ${prefix}fast
+   ♨️༢࿔ ${prefix}fat
+   ♨️༢࿔ ${prefix}nightcore
+   ♨️༢࿔ ${prefix}reverse
+   ♨️༢࿔ ${prefix}robot
+   ♨️༢࿔ ${prefix}slow
+   ♨️༢࿔ ${prefix}tupai
 
 ♕︎ *Owner*
-   ༢࿔ྀ ${prefix}react [emoji]
-   ༢࿔ྀ ${prefix}chat [option]
-   ༢࿔ྀ ${prefix}join [link]
-   ༢࿔ྀ ${prefix}leave
-   ༢࿔ྀ ${prefix}block @user
-   ༢࿔ྀ ${prefix}unblock @user
-   ༢࿔ྀ ${prefix}bcgroup [text]
-   ༢࿔ྀ ${prefix}bcall [text]
-   ༢࿔ྀ ${prefix}setppbot [image]
-   ༢࿔ྀ ${prefix}setexif
+   ♨️༢࿔ ${prefix}react [emoji]
+   ♨️༢࿔ ${prefix}chat [option]
+   ♨️༢࿔ ${prefix}join [link]
+   ♨️༢࿔ ${prefix}leave
+   ♨️༢࿔ ${prefix}block @user
+   ♨️༢࿔ ${prefix}unblock @user
+   ♨️༢࿔ ${prefix}bcgroup [text]
+   ♨️༢࿔ ${prefix}bcall [text]
+   ♨️༢࿔ ${prefix}setppbot [image]
+   ♨️༢࿔ ${prefix}setexif
 `
-var button = [{ buttonId: `dashboard`, buttonText: { displayText: `𝕭𝖔𝖙 • Andii ༢࿔ྀ` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `Owner` }, type: 1 }]
+var button = [{ buttonId: `dashboard`, buttonText: { displayText: `𝕭𝖔𝖙 • Andii ♨️༢࿔` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `Owner` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
