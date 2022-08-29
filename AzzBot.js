@@ -982,7 +982,7 @@ case 'tagall': {
 if (!m.isGroup) throw mess.group
 if (!isBotAdmins) throw mess.botAdmin
 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `══✪〘 *𝕭𝖔𝖙 • Andii ༢࿔ྀ* 〙✪══
  
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
 for (let mem of participants) {
@@ -2662,7 +2662,7 @@ break
 
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-buffer = `https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg`
+buffer = `menu.jpg`
 anu = `‼️‼️‼️‼️‼️ ‼️‼️‼️‼️ ‼️
 ‼️⛶══════════⛶‼️
 ‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
@@ -2721,7 +2721,8 @@ anu = `‼️‼️‼️‼️‼️ ‼️‼️‼️‼️ ‼️
 ‼️⛶▒▀█████▀▒▒⛶‼️
 ‼️⛶▒▒▒▒▒▒▒▒▒▒⛶‼️
 ‼️⛶══════════⛶‼️
-‼️‼️‼️‼️‼️‼️‼️‼️‼️ By : ${pushname}
+‼️‼️‼️‼️‼️‼️‼️‼️‼️
+By : ${pushname}
    
    
 
