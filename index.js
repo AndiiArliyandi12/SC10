@@ -145,13 +145,6 @@ zets.ev.on('messages.upsert', async chatUpdate => {
             let metadata = await zets.groupMetadata(anu.id)
             let participants = anu.participants
             for (let num of participants) {
-                // Get Profile Picture User
-                try {
-                    ppuser = await zets.profilePictureUrl(num)
-                } catch {
-                    ppuser = 'https://tinyurl.com/yx93l6da'
-                }
-
                 // Get Profile Picture Group
                 try {
                     ppgroup = await zets.profilePictureUrl(anu.id, 'image')
