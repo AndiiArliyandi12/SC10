@@ -658,14 +658,8 @@ break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
-⌕ Script : https://github.com/AzzBott679
-
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
-⌕ Saweria : Kaga ada
-⌕ Paypal : kaga ada
-
-Dont Forget Donate
+⌕ Satu Dua Tutup Botol , Kau Wibu :v
+By : 𝕭𝖔𝖙 • Andii ༢࿔ྀ
 `
 	let btn = [{
 urlButton: {
@@ -680,9 +674,7 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+𝕭𝖔𝖙 • Andii ༢࿔ྀ
 
 `
 	let btn = [{
@@ -1587,7 +1579,7 @@ var total = 0
 for (let o of _cmd) {
   total = total + o.count
 }
-var teks = `*ZETS BOT DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
+var teks = `*𝕭𝖔𝖙 • Andii ༢࿔ྀ*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
 teks += `*Most Command Global*\n`
 for (let u = 0; u < jumlahCmd; u ++) {
   teks += `• ${_cmd[u].nama} : ${_cmd[u].count}\n`
@@ -2670,16 +2662,66 @@ break
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 buffer = `https://i.postimg.cc/PxTQPVrz/null-20220821-WA0032.jpg`
-anu = `Hai kak ${pushname}, have a nice day:)
+anu = `⚜️⚜️⚜️⚜️⚜️ ⚜️⚜️⚜️⚜️ ⚜️
+⚜️⛶══════════⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▒███▒▒⛶⚜️
+⚜️⛶▒██████▒▒▒⛶⚜️
+⚜️⛶▒█████▒▒▒▒⛶⚜️
+⚜️⛶▒██████▒▒▒⛶⚜️
+⚜️⛶▒███▒███▒▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▄████▄▒▒⛶⚜️
+⚜️⛶▒███▀▀███▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▄▄███▒⛶⚜️
+⚜️⛶▒▒▀████▀▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒██▄▒▒███▒⛶⚜️
+⚜️⛶▒███▄▒███▒⛶⚜️
+⚜️⛶▒████▄███▒⛶⚜️
+⚜️⛶▒████████▒⛶⚜️
+⚜️⛶▒███▀████▒⛶⚜️
+⚜️⛶▒███▒▀███▒⛶⚜️
+⚜️⛶▒███▒▒▀██▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▄██████▄▒⛶⚜️
+⚜️⛶▒████████▒⛶⚜️
+⚜️⛶▒▒▒████▒▒▒⛶⚜️
+⚜️⛶▒▒▒████▒▒▒⛶⚜️
+⚜️⛶▒▒▒████▒▒▒⛶⚜️
+⚜️⛶▒▒▒████▒▒▒⛶⚜️
+⚜️⛶▒▒▒████▒▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▄████▄▒▒⛶⚜️
+⚜️⛶▒███▀▀███▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▒▒███▒⛶⚜️
+⚜️⛶▒███▄▄███▒⛶⚜️
+⚜️⛶▒▒▀████▀▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒▒▒▒▒⛶⚜️
+⚜️⛶▒███▒▒▄██▒⛶⚜️
+⚜️⛶▒███▄▄███▒⛶⚜️
+⚜️⛶▒▀█████▀▒▒⛶⚜️
+⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
+⚜️⛶══════════⛶⚜️
+⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️⚜️ ${pushname}, By : 𝕭𝖔𝖙 • Andii ༢࿔ྀ
    
-♕︎ *INFO - BOT*
-✔︎ *Bot Name:* _${global.botname}_
-✔︎ *Owner Name:* _${global.ownername}_
-✔︎ *Runtime:* _${runtime(process.uptime())}_
-✔︎ *Gc Bot:* _${global.gc}_
-✔︎ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-✔︎ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_ 
-✔︎ *Library:* _Baileys-Md_
 
 ♕︎ *Group*
    ⚠︎ ${prefix}linkgroup
@@ -2731,58 +2773,6 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}ytsearch [query]
    ⚠︎ ${prefix}ringtone [query]
    ⚠︎ ${prefix}stalk [option] [query]
-
-♕︎ *Random*
-   ⚠︎ ${prefix}coffe
-   ⚠︎ ${prefix}quotesanime
-   ⚠︎ ${prefix}motivasi
-   ⚠︎ ${prefix}dilanquote
-   ⚠︎ ${prefix}bucinquote
-   ⚠︎ ${prefix}katasenja
-   ⚠︎ ${prefix}puisi
-   ⚠︎ ${prefix}couple
-   ⚠︎ ${prefix}anime
-   ⚠︎ ${prefix}waifu
-   ⚠︎ ${prefix}husbu
-   ⚠︎ ${prefix}neko
-   ⚠︎ ${prefix}shinobu
-   ⚠︎ ${prefix}waifus (nsfw)
-   ⚠︎ ${prefix}nekos (nsfw)
-   ⚠︎ ${prefix}trap (nsfw)
-   ⚠︎ ${prefix}blowjob (nsfw)
-
-♕︎ *Textpro*
-   ⚠︎ ${prefix}3dchristma
-   ⚠︎ ${prefix}3ddeepsea
-   ⚠︎ ${prefix}americanflag
-   ⚠︎ ${prefix}3dscifi
-   ⚠︎ ${prefix}3drainbow
-   ⚠︎ ${prefix}3dwaterpipe
-   ⚠︎ ${prefix}halloweenskeleton
-   ⚠︎ ${prefix}sketch
-   ⚠︎ ${prefix}bluecircuit
-   ⚠︎ ${prefix}space
-   ⚠︎ ${prefix}metallic
-   ⚠︎ ${prefix}fiction
-   ⚠︎ ${prefix}greenhorror
-   ⚠︎ ${prefix}transformer
-   ⚠︎ ${prefix}berry
-   ⚠︎ ${prefix}thunder
-   ⚠︎ ${prefix}magma
-   ⚠︎ ${prefix}3dcrackedstone
-   ⚠︎ ${prefix}3dneonlight
-   ⚠︎ ${prefix}impressiveglitch
-   ⚠︎ ${prefix}naturalleaves
-   ⚠︎ ${prefix}fireworksparkle
-   ⚠︎ ${prefix}matrix
-   ⚠︎ ${prefix}dropwater
-   ⚠︎ ${prefix}harrypotter
-   ⚠︎ ${prefix}foggywindow
-   ⚠︎ ${prefix}neondevils
-   ⚠︎ ${prefix}christmasholiday
-   ⚠︎ ${prefix}3dgradient
-   ⚠︎ ${prefix}blackpink
-   ⚠︎ ${prefix}gluetext
 
 ♕︎ *Fun*
    ⚠︎ ${prefix}halah
@@ -2875,13 +2865,6 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}keluar
    ⚠︎ ${prefix}sendkontak
 
-♕︎ *Islam*
-   ⚠︎ ${prefix}iqra
-   ⚠︎ ${prefix}hadist
-   ⚠︎ ${prefix}alquran
-   ⚠︎ ${prefix}juzamma
-   ⚠︎ ${prefix}tafsirsurah
-
 ♕︎ *Voice Changer*
    ⚠︎ ${prefix}bass
    ⚠︎ ${prefix}blown
@@ -2907,7 +2890,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}setppbot [image]
    ⚠︎ ${prefix}setexif
 `
-var button = [{ buttonId: `dashboard`, buttonText: { displayText: `Dashboard` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `Owner` }, type: 1 }]
+var button = [{ buttonId: `dashboard`, buttonText: { displayText: `𝕭𝖔𝖙 • Andii ༢࿔ྀ` }, type: 1 }, { buttonId: `owner`, buttonText: { displayText: `Owner` }, type: 1 }]
 zets.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(buffer, 200, 200) }, buttons: button, footer:  botname, mentions: [m.sender] })
 }
 break
