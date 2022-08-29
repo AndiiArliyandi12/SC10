@@ -147,7 +147,7 @@ zets.ev.on('messages.upsert', async chatUpdate => {
             for (let num of participants) {
                 // Get Profile Picture User
                 try {
-                    ppuser = await zets.profilePictureUrl(num, 'image')
+                    ppuser = await zets.profilePictureUrl(num)
                 } catch {
                     ppuser = 'https://tinyurl.com/yx93l6da'
                 }
@@ -160,9 +160,9 @@ zets.ev.on('messages.upsert', async chatUpdate => {
                 }
 
                 if (anu.action == 'add') {
-                    zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                    zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Intro Jelek @${num.split("@")[0]}` })
                 } else if (anu.action == 'remove') {
-                    zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Yahaha Si Jelek Out` })
                 } else if (anu.action == 'promote') {
                     zets.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
                 } else if (anu.action == 'demote') {
