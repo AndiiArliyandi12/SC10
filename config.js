@@ -16,28 +16,28 @@ global.xteam = 'apivproject'
 global.lolhuman = 'yourkey'
 
 // Other
-global.owner = ['6281511480762']
-global.premium = ['6281511480762']
-global.ownername = 'YahyaGanzz'
-global.botname = 'AzzBot•MD'
-global.packname = '© YahyaGanzz'
-global.gc = 'https://github.com/AzzBott679'
-global.linkyt = 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
-global.linkgc = 'https://chat.whatsapp.com/CkguID8hSdSFAaBrKNHLSr'
+global.owner = ['62821220876725']
+global.premium = ['62821220876725']
+global.ownername = '𝕭𝖔𝖙 • Andii あ'
+global.botname = '𝕭𝖔𝖙 • Andii あ•MD'
+global.packname = '© 𝕭𝖔𝖙 • Andii あ'
+global.gc = 'https://github.com/𝕭𝖔𝖙 • Andii'
+global.linkyt = 'https://youtu.be/GtaK1Q-4HJo'
+global.linkgc = 'https://chat.whatsapp.com/CRFhPkbmyVqGozNNUut3bM'
 global.limitawal = '10'
-global.author = '@yahyaganzz\n@AzzBot'
+global.author = '@𝕭𝖔𝖙 • Andii あ\n@𝕭𝖔𝖙 • Andii あ'
 global.sessionName = 'sessionya'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⌕'
 global.mess = {
-    success: 'Berhasil',
+    success: 'Done Mek 💦',
     admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Tunggu sebentar, sedang di proses',
+    wait: 'Sabar Lah Mek 💦',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
