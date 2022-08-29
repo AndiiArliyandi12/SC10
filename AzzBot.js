@@ -2661,7 +2661,6 @@ break
 
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-buffer = `https://i.postimg.cc/PxTQPVrz/null-20220821-WA0032.jpg`
 anu = `⚜️⚜️⚜️⚜️⚜️ ⚜️⚜️⚜️⚜️ ⚜️
 ⚜️⛶══════════⛶⚜️
 ⚜️⛶▒▒▒▒▒▒▒▒▒▒⛶⚜️
