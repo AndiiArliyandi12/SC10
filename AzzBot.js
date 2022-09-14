@@ -1049,14 +1049,6 @@ teks += `⌕ @${mem.id.split('@')[0]}\n`
 zets.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
 }
 break
-case 'totag': {
-               if (!m.isGroup) return m.reply(act.gc)
-               if (!isBotAdmins) return m.reply(act.botadm)
-               if (!isAdmins) return m.reply(act.admin)
-               if (!m.quoted) return m.reply(`Reply pesan dengan caption ${prefix + command}`)
-               zets.sendMessage(from, { forward: m.quoted.fakeObj, mentions: participants.map(a => a.id) }), { quoted: m })
-               }
-               break
 case 'hidetag': {
 if (!m.isGroup) throw mess.group
 if (!isBotAdmins) throw mess.botAdmin
@@ -1064,51 +1056,6 @@ if (!isAdmins) throw mess.admin
 zets.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
 }
 break
-case 'attp': case 'ttp': {
-          	  if (!text) return m.reply(`Example : ${prefix + command} text`)
-         	   await zets.sendMedia(from, `https://xteam.xyz/${command}?file&text=${text}`, 'Fadhil', 'Graphy', m, {asSticker: true})
-    		    }
-     		   break
-     		case 'stickerwm':
-			case 'swm':
-			case 'stickergifwm':
-			case 'sgifwm': {
-                let [teks1, teks2] = text.split`|`
-                if (!teks1) return m.reply(`Kirim/reply image/video dengan caption ${prefix + command} teks1|teks2`)
-                if (!teks2) return m.reply(`Kirim/reply image/video dengan caption ${prefix + command} teks1|teks2`)
-            	m.reply(act.proc)
-                if (/image/.test(mime)) {
-                    let media = await zets.downloadMediaMessage(qmsg)
-                    let encmedia = await zets.sendImageAsSticker(from, media, m, { packname: teks1, author: teks2 })
-                    await fs.unlinkSync(encmedia)
-                } else if (/video/.test(mime)) {
-                    if ((quoted.msg || quoted).seconds > 11) return m.reply('Maksimal 10 detik!')
-                    let media = await zets.downloadMediaMessage(qmsg)
-                    let encmedia = await zets.sendVideoAsSticker(from, media, m, { packname: teks1, author: teks2 })
-                    await fs.unlinkSync(encmedia)
-                /*} else if (/document/.test(mime)) {
-                    let media = await zets.downloadMediaMessage(qmsg)
-                    let encmedia = await zets.sendImageAsSticker(from, media, m, { packname: teks1, author: teks2 })
-                    await fs.unlinkSync(encmedia)*/
-                } else {
-                    m.reply(`Kirim Gambar/Video Dengan Caption ${prefix + command}\nDurasi Video 1-9 Detik`)
-                }
-        	    }
-        	    break
-        	case 'smeme': case 'stickmeme': case 'stikmeme': case 'stickermeme': case 'stikermeme': {
-	       	 if (!/image/.test(mime)) return m.reply(`Kirim/reply image/sticker dengan caption ${prefix + command} text1|text2`)
-      	      if (!text) return m.reply(`Kirim/reply image/sticker dengan caption ${prefix + command} text1|text2`)
-	   	     m.reply(act.wait)
-       	     atas = text.split('|')[0] ? text.split('|')[0] : '-'
-      	      bawah = text.split('|')[1] ? text.split('|')[1] : '-'
-	  	      let dwnld = await zets.downloadMediaMessage(qmsg)
-	 	       let { floNime } = require('./lib/uploader')
-	  	      let fatGans = await floNime(dwnld)
-	       	 let smeme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas)}/${encodeURIComponent(bawah)}.png?background=${fatGans.result.url}`
-	  	      let has = await zets.sendImageAsSticker(from, smeme, m, { packname: global.packname, author: global.auhor })
-	  	      await fs.unlinkSync(has)
-       	     }
-	  	      break
 	case 'style': case 'styletext': {
 	if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
 		db.data.users[m.sender].limit -= 1 // -1 limit
@@ -2840,7 +2787,6 @@ By : ${pushname}
 ♕︎ *Group*
    ♨️༢࿔ ${prefix}linkgroup
    ♨️༢࿔ ${prefix}ephemeral [option]
-   ♨️༢࿔ ${prefix}setppgc [image]
    ♨️༢࿔ ${prefix}setname [text]
    ♨️༢࿔ ${prefix}setdesc [text]
    ♨️༢࿔ ${prefix}group [option]
