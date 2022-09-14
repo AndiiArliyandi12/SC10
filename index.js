@@ -119,14 +119,14 @@ zets.ev.on('messages.upsert', async chatUpdate => {
        try {
        ppgc = await zets.profilePictureUrl(ciko.id, 'image')
        } catch {
-       ppgc = 'https://tinyurl.com/yx93l6da'
+       ppgc = 'https://chat.whatsapp.com/EjczE2AmL7qHnpPbs8d74b'
        }
        let wm_fatih = { url : ppgc }
-       if (ciko.announce == true) {
+       if (ciko.announce == false) {
        zets.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message`, wm_fatih, [])
        } else if (ciko.announce == false) {
        zets.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message`, wm_fatih, [])
-       } else if (ciko.restrict == true) {
+       } else if (ciko.restrict == false) {
        zets.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message`, wm_fatih, [])
        } else if (ciko.restrict == false) {
        zets.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message`, wm_fatih, [])
@@ -149,7 +149,7 @@ zets.ev.on('messages.upsert', async chatUpdate => {
                 try {
                     ppgroup = await zets.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://tinyurl.com/yx93l6da'
+                    ppgroup = 'https://chat.whatsapp.com/EjczE2AmL7qHnpPbs8d74b'
                 }
 
                 if (anu.action == 'add') {
